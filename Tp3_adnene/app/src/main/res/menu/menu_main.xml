@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tp3_adnene.MainActivity">
+
+    <item
+
+        android:id="@+id/appel"
+        android:title="Appels">
+        <menu>
+            <item
+                android:id="@+id/apelle_nor"
+                android:icon="@android:drawable/stat_sys_phone_call"
+                android:title="Appel normal" />
+            <item
+                android:id="@+id/apelle_ur"
+                android:icon="@android:drawable/stat_sys_phone_call"
+                android:title="Appel d urgence" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Camera"
+
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sms"
+
+        android:title="SMS">
+        <menu>
+            <item
+                android:id="@+id/sms_nor"
+                android:title="SMS normal" />
+            <item
+                android:id="@+id/sms_ur"
+                android:title="SMS d urgence" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_quitt"
+        android:title="Quitter" />
+</menu>
